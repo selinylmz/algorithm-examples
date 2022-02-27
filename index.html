@@ -10,14 +10,6 @@
     <h1>Dairenin Alani ve Cevresi</h1>
     <input id="radius" placeholder="yaricap giriniz" onchange="Result()">
     <p id="result">Henuz hesaplanmadi</p>
-    <script>
-        function Result(){
-            const radius=document.getElementById('radius').value;
-            let result=document.getElementById('result');
-            const area=3.14*radius*radius;
-            const envoirement=2*3.14*radius;
-            result.innerHTML=`Dairenin alani ${area}, cevresi ${envoirement}'dir.`;
-        }
-    </script>
+    <script src="./script.js"></script>
 </body>
 </html>
